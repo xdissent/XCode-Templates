@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This project builds a Core Data application.</string>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>«PROJECTNAMEASIDENTIFIER»_Prefix.pch</string>
+		<string>«PROJECTNAMEASIDENTIFIER»_AppDelegate.py</string>
+		<string>Info.plist</string>
+		<string>English.lproj/InfoPlist.strings</string>
+		<string>English.lproj/MainMenu.xib</string>
+		<string>main.m</string>
+		<string>main.py</string>
+	</array>
+	<key>FilesToRename</key>
+	<dict>
+		<key>AppDelegate.py</key>
+		<string>«PROJECTNAMEASIDENTIFIER»_AppDelegate.py</string>
+		<key>CocoaApp.xcdatamodel</key>
+		<string>«PROJECTNAMEASIDENTIFIER»_DataModel.xcdatamodel</string>
+		<key>CocoaApp_Prefix.pch</key>
+		<string>«PROJECTNAMEASIDENTIFIER»_Prefix.pch</string>
+	</dict>
+</dict>
+</plist>

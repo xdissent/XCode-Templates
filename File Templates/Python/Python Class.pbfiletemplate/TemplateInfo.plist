@@ -1,0 +1,4 @@
+{
+	MainTemplateFile = "file.py";
+	Description = "A Python class file";
+}
