@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This project builds a Coda Plugin written in a mix of Python and Objective-C.</string>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>«PROJECTNAMEASIDENTIFIER»_Prefix.pch</string>
+		<string>Info.plist</string>
+		<string>English.lproj/InfoPlist.strings</string>
+		<string>bundle.m</string>
+		<string>bundle.py</string>
+		<string>«PROJECTNAMEASIDENTIFIER».py</string>
+		<string>«PROJECTNAMEASIDENTIFIER».xib</string>
+	</array>
+	<key>FilesToRename</key>
+	<dict>
+		<key>CocoaBundle.py</key>
+		<string>«PROJECTNAMEASIDENTIFIER».py</string>
+		<key>CocoaBundle_Prefix.pch</key>
+		<string>«PROJECTNAMEASIDENTIFIER»_Prefix.pch</string>
+		<key>CocoaBundle.xib</key>
+		<string>«PROJECTNAMEASIDENTIFIER».xib</string>
+	</dict>
+</dict>
+</plist>
