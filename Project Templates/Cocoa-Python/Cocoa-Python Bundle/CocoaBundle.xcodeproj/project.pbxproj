@@ -135,7 +135,7 @@
 			productInstallPath = "$(HOME)/Applications";
 			productName = "«PROJECTNAME»";
 			productReference = AC4EE28F112266C300232AD5 /* «PROJECTNAME».bundle */;
-			productType = "com.apple.product-type.application";
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
